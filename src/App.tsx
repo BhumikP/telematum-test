@@ -1,13 +1,12 @@
-
-import './App.css'
+import "./App.css";
+import AppointmentPage from "./pages/Appointment";
 
 function App() {
-
   return (
     <>
-    Hi
+      <AppointmentPage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
